@@ -34,7 +34,7 @@ public class VoidVelocity extends JavaPlugin implements Listener {
 	}
 	
 	
-	/* It's called VoidVelocity, yet is uses potion levitiation, yea yea.*/
+	/* It's called VoidVelocity, yet uses potion levitiation, yea yea.*/
 	@EventHandler
 	public void on(PlayerMoveEvent event) {
 		if(event.getTo().getBlockY() <= yHeight) {
