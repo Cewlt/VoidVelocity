@@ -21,7 +21,7 @@ public class Util {
 		return ChatColor.GOLD + key + ": " + ChatColor.RED + value + " ";
 	}
 
-	/* Amazing color format, too bad I stole it. */
+	// Amazing color format, too bad I stole it.
 	public void sendHelpMessage(Player player) {
 		player.sendMessage(format("&8-=| &aVoidTP Help &8|=-"));
 		player.sendMessage(format("&a/svoid reload &7 Reload the configuration file"));
