@@ -1,0 +1,8 @@
+name: VoidVelocity
+main: colt.voidvelocity.VoidVelocity
+version: 1.0
+author: Cewlt (Colt)
+commands:
+  svoid:
+    description: Main command for VoidVelocity.
+    usage: /<command>
