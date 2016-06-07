@@ -33,7 +33,6 @@ public class VoidVelocity extends JavaPlugin implements Listener {
 		saveConfig();
 	}
 	
-	
 	/* It's called VoidVelocity, yet uses potion levitiation, yea yea.*/
 	@EventHandler
 	public void on(PlayerMoveEvent event) {
