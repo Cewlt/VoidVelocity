@@ -9,9 +9,8 @@ import colt.voidvelocity.Util;
 import colt.voidvelocity.VoidVelocity;
 
 public class VoidTPCommand implements CommandExecutor {
-
-	private VoidVelocity plugin;
 	private Util util = Util.getUtil();
+	private VoidVelocity plugin;
 
 	public VoidTPCommand(VoidVelocity plugin) {
 		this.plugin = plugin;
