@@ -4,12 +4,10 @@ import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 public class Util {
-
 	private static Util util;
 
 	public static Util getUtil() {
-		if (util == null)
-			util = new Util();
+		if (util == null) util = new Util();
 		return util;
 	}
 
@@ -21,7 +19,6 @@ public class Util {
 		return ChatColor.GOLD + key + ": " + ChatColor.RED + value + " ";
 	}
 
-	// Amazing color format, too bad I stole it.
 	public void sendHelpMessage(Player player) {
 		player.sendMessage(format("&8-=| &aVoidTP Help &8|=-"));
 		player.sendMessage(format("&a/svoid reload &7 Reload the configuration file"));
